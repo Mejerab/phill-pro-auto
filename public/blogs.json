@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.imgur.com/zuyQmWz.png",
+      "title": "HYBRID CARS 101: A COMPROMISE BETWEEN NEW AND OLD TECHNOLOGY",
+      "date": "December 23, 2024",
+      "problem": "Hybrid Repair"
+    },
+    {
+      "id": 2,
+      "image": "https://i.imgur.com/HIqw9Mo.png",
+      "title": "HOW TO KNOW IF YOU NEED BRAKE REPAIR",
+      "date": "November 15, 2023",
+      "problem": "Brakes"
+    },
+    {
+      "id": 3,
+      "image": "https://i.imgur.com/Yi1Y9WG.png",
+      "title": "FIND THE RIGHT CAR SEAT FOR YOUR CHILD SAFETY",
+      "date": "January 7, 2025",
+      "problem": "Automotive Repair"
+    },
+    {
+      "id": 4,
+      "image": "https://i.imgur.com/xHPuAXh.png",
+      "title": "WHEN YOUR VEHICLE OVERHEATS, DON’T GET STRANDED ON THE SIDE OF THE ROAD!",
+      "date": "October 31, 2022",
+      "problem": "Engine Repair"
+    }
+  ]
+  

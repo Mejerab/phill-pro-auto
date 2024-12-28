@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font {
+    font-family: "Bebas Neue", serif;
+}
+
+.inter {
+    font-family: "Inter", serif;
+}
+
+.tra {
+    transition: all .3s ease-in-out;
+}
+
+.endd::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44.5%;
+    height: 0;
+    border-bottom: 102px solid #2C6F89;
+    border-left: 55px solid transparent;
+    background: url('https://i.ibb.co.com/gZHhWyG/Mask-group.png');
+}
+
+.imgg {
+    width: 44%;
+}
+
+@media (max-width: 240rem) {
+    .endd::after {
+        width: 38%;
+    }
+
+    .imgg {
+        width: 38%;
+    }
+}
+
+@media (max-width: 140rem) {
+    .endd::after {
+        width: 32%;
+    }
+
+    .imgg {
+        width: 32%;
+    }
+}
+
+@media (max-width: 135rem) {
+    .endd::after {
+        width: 30%;
+    }
+
+    .imgg {
+        width: 30%;
+    }
+}
+
+@media (max-width: 120rem) {
+    .endd::after {
+        width: 32%;
+        border-bottom: 96px solid #2C6F89;
+    }
+
+    .imgg {
+        width: 32%;
+    }
+}
+
+@media (max-width: 90rem) {
+    .endd::after {
+        width: 29%;
+    }
+
+    .imgg {
+        width: 29%;
+    }
+}
+
+@media (max-width: 80rem) {
+    .endd::after {
+        width: 27%;
+    }
+
+    .imgg {
+        width: 27%;
+    }
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all .6s ease-in-out;
+    background-color: #F4B519;
+}
+
+.button:hover::after {
+    width: 0%;
+}
+.button-black::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all .6s ease-in-out;
+    background-color: #2C3C3B;
+}
+
+.button-black:hover::after {
+    width: 0%;
+}
+.button-blue::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all .6s ease-in-out;
+    background-color: #2C6F89;
+}
+
+.button-blue:hover::after {
+    width: 0%;
+}
+
+.button-whi::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all .6s ease-in-out;
+    background-color: #fff;
+}
+
+.button-whi:hover::after {
+    width: 0%;
+}
+
+.leftt {
+    margin-left: 115rem;
+}
+
+@media (max-width: 250rem) {
+    .leftt {
+        margin-left: 75rem;
+    }
+}
+
+@media (max-width: 170rem) {
+    .leftt {
+        margin-left: 35.5rem;
+    }
+}
+
+@media (max-width: 150rem) {
+    .leftt {
+        margin-left: 20rem
+    }
+}
+
+@media (max-width: 140rem) {
+    .leftt {
+        margin-left: 15rem;
+    }
+}
+
+@media (max-width: 121rem) {
+    .leftt {
+        margin-left: 16.5rem;
+    }
+}
+
+@media (max-width: 110rem) {
+    .leftt {
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width: 100rem) {
+    .leftt {
+        margin-left: 7rem;
+    }
+
+    .leftt .ww {
+        width: 71rem;
+    }
+}
+
+@media (max-width: 90rem) {
+    .leftt {
+        margin-left: 5.5rem;
+    }
+
+    .leftt .ww {
+        margin-left: -1.2rem;
+    }
+}
+
+@media (max-width: 80rem) {
+    .leftt {
+        margin-left: 2rem;
+    }
+}
+
+.about::after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    width: 45%;
+    border-top: 650px solid #2C6F89;
+    border-right: 200px solid transparent;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spin {
+    animation: spin 20s linear infinite;
+}
+
+.foot::after {
+    content: '';
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 48%;
+    height: 100%;
+    z-index: 0;
+    background-color: #2C6F89;
+}
+@media (max-width: 720){
+    .foot::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 48%;
+        height: 100%;
+        z-index: 0;
+        background-color: #2C6F89;
+    }
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 20px solid #2C6F89;
+    left: 48%;
+    border-bottom: 25px solid transparent;
+}
+
+@media (max-width: 100rem) {
+    .foot::after {
+        width: 43%;
+    }
+
+    .triangle {
+        left: 43%;
+    }
+}
+
+@keyframes roll {
+    0% {
+        transform: translateX(-12rem) rotate(-360deg);
+    }
+
+    100% {
+        transform: translateX(0rem) rotate(0deg);
+    }
+}
+
+.divi {
+    width: 0%;
+}
+
+[data-aos='expand-width'].aos-animate {
+    width: 100%;
+}
+
+.swiper-pagination-bullet {
+    background: #FFFFFF !important;
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #F4B519 !important;
+}
+
+.MuiPickersCalendarHeader-label {
+    font-family: "Inter", serif;
+}
+
+.Mui-selected {
+    color: rgba(255, 255, 255) !important;
+    font-size: 15px !important;
+}
+
+.css-5wchs2-MuiDateCalendar-root {
+    font-family: "Inter", serif !important;
+    font-weight: 500 !important;
+    color: #2C3C3B !important;
+    font-size: 10px !important;
+}
+
+.css-afqy65-MuiButtonBase-root-MuiPickersDay-root {
+    font-size: 15px !important;
+    font-weight: 500;
+}
+
+.css-xy51mj-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+    font-size: 15px !important;
+}
+
+.css-5wchs2-MuiDateCalendar-root {
+    width: 300px !important;
+    background: #F9F7F2 !important;
+    border-radius: 8px !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0; /* Ensure the icon is visible */
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+    opacity: 0; /* Ensure the icon is visible */
+}
+.css-13lvt8g-MuiButtonBase-root-MuiRadio-root.Mui-checked{
+    color: #F4B519 !important;
+}
