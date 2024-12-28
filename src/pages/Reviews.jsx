@@ -4,8 +4,8 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 const Reviews = () => {
     return (
         <div className="max-w-[1170px] mx-auto px-4 py-24">
-            <div className="grid grid-cols-2 gap-x-7 gap-y-16">
-                <div data-aos='fade-right' className="w-full bg-[#F9F7F2] rounded-[12px] h-[365px] relative">
+            <div className="grid lg:grid-cols-2 gap-x-7 gap-y-16">
+                <div data-aos='fade-right' className="w-full bg-[#F9F7F2] rounded-[12px] lg:pb-0 pb-8 lg:h-[365px] relative">
                     <div className="w-[75px] h-[75px] rounded-full flex justify-center items-center bg-[#2C6F89] absolute left-14 -top-8">
                         <RiDoubleQuotesL className="text-5xl text-white" />
                     </div>
@@ -16,7 +16,7 @@ const Reviews = () => {
                         <Rating className="mt-4" value={5} readOnly />
                     </div>
                 </div>
-                <div data-aos='fade-left' className="w-full bg-[#F9F7F2] rounded-[12px] h-[365px] relative">
+                <div data-aos='fade-left' className="w-full bg-[#F9F7F2] rounded-[12px] lg:pb-0 pb-8 lg:h-[365px] relative">
                     <div className="w-[75px] h-[75px] rounded-full flex justify-center items-center bg-[#2C6F89] absolute left-14 -top-8">
                         <RiDoubleQuotesL className="text-5xl text-white" />
                     </div>
@@ -27,7 +27,7 @@ const Reviews = () => {
                         <Rating className="mt-4" value={5} readOnly />
                     </div>
                 </div>
-                <div data-aos='fade-right' className="w-full bg-[#F9F7F2] rounded-[12px] h-[365px] relative">
+                <div data-aos='fade-right' className="w-full bg-[#F9F7F2] rounded-[12px] lg:pb-0 pb-8 lg:h-[365px] relative">
                     <div className="w-[75px] h-[75px] rounded-full flex justify-center items-center bg-[#2C6F89] absolute left-14 -top-8">
                         <RiDoubleQuotesL className="text-5xl text-white" />
                     </div>
@@ -38,7 +38,7 @@ const Reviews = () => {
                         <Rating className="mt-4" value={5} readOnly />
                     </div>
                 </div>
-                <div data-aos='fade-left' className="w-full bg-[#F9F7F2] rounded-[12px] h-[365px] relative">
+                <div data-aos='fade-left' className="w-full bg-[#F9F7F2] rounded-[12px] lg:pb-0 pb-8 lg:h-[365px] relative">
                     <div className="w-[75px] h-[75px] rounded-full flex justify-center items-center bg-[#2C6F89] absolute left-14 -top-8">
                         <RiDoubleQuotesL className="text-5xl text-white" />
                     </div>
@@ -49,7 +49,7 @@ const Reviews = () => {
                         <Rating className="mt-4" value={5} readOnly />
                     </div>
                 </div>
-                <div data-aos='fade-right' className="w-full bg-[#F9F7F2] rounded-[12px] h-[365px] relative">
+                <div data-aos='fade-right' className="w-full bg-[#F9F7F2] rounded-[12px] lg:pb-0 pb-8 lg:h-[365px] relative">
                     <div className="w-[75px] h-[75px] rounded-full flex justify-center items-center bg-[#2C6F89] absolute left-14 -top-8">
                         <RiDoubleQuotesL className="text-5xl text-white" />
                     </div>
@@ -60,7 +60,7 @@ const Reviews = () => {
                         <Rating className="mt-4" value={5} readOnly />
                     </div>
                 </div>
-                <div data-aos='fade-left' className="w-full bg-[#F9F7F2] rounded-[12px] h-[365px] relative">
+                <div data-aos='fade-left' className="w-full bg-[#F9F7F2] rounded-[12px] lg:pb-0 pb-8 lg:h-[365px] relative">
                     <div className="w-[75px] h-[75px] rounded-full flex justify-center items-center bg-[#2C6F89] absolute left-14 -top-8">
                         <RiDoubleQuotesL className="text-5xl text-white" />
                     </div>
@@ -71,7 +71,7 @@ const Reviews = () => {
                         <Rating className="mt-4" value={5} readOnly />
                     </div>
                 </div>
-                <div data-aos='fade-right' className="w-full bg-[#F9F7F2] rounded-[12px] h-[365px] relative">
+                <div data-aos='fade-right' className="w-full bg-[#F9F7F2] rounded-[12px] lg:pb-0 pb-8 lg:h-[365px] relative">
                     <div className="w-[75px] h-[75px] rounded-full flex justify-center items-center bg-[#2C6F89] absolute left-14 -top-8">
                         <RiDoubleQuotesL className="text-5xl text-white" />
                     </div>
@@ -82,7 +82,7 @@ const Reviews = () => {
                         <Rating className="mt-4" value={5} readOnly />
                     </div>
                 </div>
-                <div data-aos='fade-left' className="w-full bg-[#F9F7F2] rounded-[12px] h-[365px] relative">
+                <div data-aos='fade-left' className="w-full bg-[#F9F7F2] rounded-[12px] lg:pb-0 pb-8 lg:h-[365px] relative">
                     <div className="w-[75px] h-[75px] rounded-full flex justify-center items-center bg-[#2C6F89] absolute left-14 -top-8">
                         <RiDoubleQuotesL className="text-5xl text-white" />
                     </div>

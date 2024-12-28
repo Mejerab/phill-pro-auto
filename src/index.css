@@ -246,7 +246,6 @@
 .foot::after {
     content: '';
     position: absolute;
-    display: none;
     top: 0;
     left: 0;
     width: 48%;
@@ -254,10 +253,11 @@
     z-index: 0;
     background-color: #2C6F89;
 }
-@media (max-width: 720){
+@media (max-width: 720px){
     .foot::after {
         content: '';
         position: absolute;
+    display: none;
         top: 0;
         left: 0;
         width: 48%;

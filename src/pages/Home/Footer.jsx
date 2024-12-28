@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <>
             <div className="bg-[#F9F7F2] foot py-24 lg:relative">
-                <div className="lg;block hidden bg-[url(https://i.imgur.com/2OQJ1F0.png)] bg-left bg-cover 2xl:w-1/2 w-[44%] h-full top-0 left-0 absolute z-50"></div>
-                <div className="lg:triangle absolute z-50 left-[43%] top-56"></div>
+                <div className="lg:block hidden bg-[url(https://i.imgur.com/2OQJ1F0.png)] bg-left bg-cover 2xl:w-1/2 w-[44%] h-full top-0 left-0 absolute z-50"></div>
+                <div className="lg:block hidden triangle absolute z-50 left-[43%] top-56"></div>
                 <div className="max-w-[1170px] mx-auto px-4 text-[#2c3c3b] lg:text-white relative z-50 flex lg:flex-row flex-col gap-y-8 h-full">
                     <div data-aos='fade-left' className="space-y-5 col-span-2">
                         <a className="btn h-fit text-xl bg-transparent border-0 hover:bg-transparent hover:backdrop-blur-lg"><img src="https://i.ibb.co.com/D1DBCZD/Logo.png" alt="" /></a>
@@ -40,13 +40,10 @@ const Footer = () => {
                             <li className="text-[#646464] text-[15px] hover:text-[#F4B519] tra"><button><IoIosArrowForward className="inline" />Inspections</button></li>
                         </ul>
                     </div>
-                    <div>
-
-                    </div>
                 </div>
             </div>
             <div className="bg-[#E9E5DA] w-full py-4">
-                <div className="max-w-[1170px] mx-auto inter text-[#646464] flex lg:flex-row flex-col gap-y-4 justify-between text-[15px]">
+                <div className="max-w-[1170px] mx-auto inter text-[#646464] flex lg:flex-row flex-col gap-y-4 justify-between text-[15px] lg:text-left text-center">
                     <p>Copyright © 2023 All Rights Reserved || Privacy Policy.</p>
                     <p>Site managed by LIFT Automotive Repair Marketing </p>
                 </div>
