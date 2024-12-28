@@ -24,7 +24,7 @@ const Testimonial = () => {
                     </div>
                 </div>
                 <Swiper
-                    slidesPerView={window.innerWidth > 720 ? 2 : 1}
+                    slidesPerView={window.innerWidth > 768 ? 2 : 1}
                     spaceBetween={25}
                     loop={true}
                     pagination={{
