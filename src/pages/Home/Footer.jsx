@@ -18,7 +18,7 @@ const Footer = () => {
                             <FaLinkedin className="text-[16px] p-[0.8rem] hover:bg-[#F4B519] hover:cursor-pointer tra w-[44px] h-[44px] bg-white text-[#2C3C3B] rounded-full" />
                         </div>
                     </div>
-                    <div data-aos='fade-right' className="w-fit lg:mx-auto">
+                    <div data-aos='fade-right' className="w-fit lg:ml-auto">
                         <h4 className="uppercase text-[27px] font font-bold text-[#2C3C3B]">Quick Links:</h4>
                         <ul className="inter mt-[1.3rem] space-y-[0.8rem]">
                             <li className="text-[#646464] text-[15px] hover:text-[#F4B519] tra"><button><IoIosArrowForward className="inline" />Careers</button></li>
